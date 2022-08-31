@@ -3,6 +3,12 @@
     box-sizing: border-box;
     padding: 0;
 }
+body{
+    font-size: 80%;
+    text-align: left;
+    font-family: "Arial Narrow", "Trebuchet MS", Tahoma, Arial, sans-serif;
+    overflow-y: scroll;
+}
 
 header{
     background-color: rgba(0, 0, 0, 0.5);
@@ -11,6 +17,8 @@ header{
     display: flex;
     height: 8%;
     justify-content: center;
+    top: 0;
+    left: 0;
 }
 
 header #logo{
@@ -46,19 +54,59 @@ header li {
 
 .banner #banner-img {
     display: flex;
-    align-items: center;
     justify-content: center;
-    text-align: center;
     flex-direction: column;
-    height: 70vh;
+    height: 65vh;
     background-image: url(img/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-section .btns .btn{
-    background-color: aqua;
-    border-color: aquamarine;
-    height: 30px;
-    width: 220px;
+section .content .btns .btn{
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #1573a4;
+    text-shadow: none;
+    color: white;
+    margin: 0;
+    padding: 0.40em 1.50em 0.245em;
+
+}
+
+section .content h1{
+    color: white;
+    text-align: left;
+    font-size: 50px;
+}
+
+section .content h3{
+    color: white;
+    text-align: left;
+}
+
+section .content {
+    padding-left: 8.5%;
+    padding-top: 16%;
+}
+img {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.info .counter{
+    display: flex;
+    justify-content: center;
+    margin:3%;
+}
+
+.info .counter #box{
+    padding: 2%;
+}
+.info .counter #box img{
+    max-width: 100%;
+}
+
+.info .counter #box h2{
+    color: #1573a4;
+
 }
