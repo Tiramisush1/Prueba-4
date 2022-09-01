@@ -18,17 +18,18 @@ header {
     display: flex;
     justify-content: left;
     height: 5.3%;
+
+}
+nav{
+    margin: 0% 0% 0% 45%;
+    padding: 0% 0% 0% 0%;
 }
 
-
-header #logo {
+nav #logo {
     background-image: url(img/halologo.png);
-    width: 140px;
-    margin: 10px 50px 8px;
     background-size: contain;
     background-repeat: no-repeat;
-    
-    
+
 }
 
 header .container {
@@ -59,11 +60,11 @@ header li {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 60vh;
+    margin: 0% 0% 5% 0%;
+    padding: 0% 0% 8.2% 0%;
     background-image: url(img/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 section .content .btns .btn {
@@ -74,22 +75,22 @@ section .content .btns .btn {
     text-shadow: none;
     color: white;
     margin: 0;
-    padding: 0.40em 1.50em 0.245em;
+    
 }
 
-section .content h1 {
+.content h1 {
     color: white;
     text-align: left;
     font-size: 50px;
 }
 
-section .content h3 {
+.content h3 {
     color: white;
     text-align: left;
 }
 
 section .content {
-    padding-left: 8.5%;
+    padding-left: 20.5%;
     padding-top: 16%;
 }
 
@@ -101,7 +102,8 @@ img {
 .info .counter {
     display: flex;
     justify-content: center;
-    margin: 3%;
+    padding-left: 15.5%;
+    padding-right: 15.5%;
 }
 
 .info .counter #box {
@@ -115,9 +117,13 @@ img {
 
 .info .counter #box h2 {
     color: #1573a4;
-
 }
 
+.text #box{
+    margin-left: 15%;
+}
+
+.
 
 
 
