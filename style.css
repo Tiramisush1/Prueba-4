@@ -17,16 +17,18 @@ header {
     width: 100%;
     display: flex;
     justify-content: left;
-    height: 8%;
+    height: 5.3%;
 }
 
 
 header #logo {
     background-image: url(img/halologo.png);
     width: 140px;
-    margin: 15px 40px 4px;
+    margin: 10px 50px 8px;
     background-size: contain;
     background-repeat: no-repeat;
+    
+    
 }
 
 header .container {
@@ -38,6 +40,7 @@ header .container {
 header nav {
     display: flex;
     align-items: center;
+    padding-left: 340px;
     flex-direction: row;
 }
 
@@ -56,10 +59,11 @@ header li {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 65vh;
+    height: 60vh;
     background-image: url(img/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 section .content .btns .btn {
@@ -71,7 +75,6 @@ section .content .btns .btn {
     color: white;
     margin: 0;
     padding: 0.40em 1.50em 0.245em;
-
 }
 
 section .content h1 {
