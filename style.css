@@ -7,7 +7,7 @@
 body {
     font-size: 80%;
     text-align: left;
-    font-family: "Arial Narrow", "Trebuchet MS", Tahoma, Arial, sans-serif;
+    font-family: sans-serif;
     overflow-y: scroll;
 }
 
@@ -16,16 +16,15 @@ header {
     position: absolute;
     width: 100%;
     display: flex;
+    justify-content: left;
     height: 8%;
-    justify-content: center;
-    top: 0;
-    left: 0;
 }
+
 
 header #logo {
     background-image: url(img/halologo.png);
     width: 140px;
-    display: inline-block;
+    margin: 15px 40px 4px;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -45,7 +44,7 @@ header nav {
 header a {
     color: white;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 header li {
