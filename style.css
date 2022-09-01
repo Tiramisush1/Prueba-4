@@ -133,10 +133,6 @@ img {
     margin-left: 15%;
 }
 
-.
-
-
-
 .banner-2 #banner-2 {
     display: flex;
     justify-content: center;
@@ -145,4 +141,16 @@ img {
     background-image: url(img/banner2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.banner-2 .info h2{
+    color: white;
+}
+
+.banner-2 .info h4{
+    color: white;
+}
+
+.banner-2 .info p{
+    color: white;
 }
