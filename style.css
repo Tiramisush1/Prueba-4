@@ -7,7 +7,7 @@
 body {
     font-size: 80%;
     text-align: left;
-    font-family: sans-serif;
+    font-family: Clydesdale-medium;
     overflow-y: scroll;
 }
 
@@ -97,6 +97,16 @@ section .content {
 img {
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: Clydesdale-medium;
+    src: url(Clydesdale/Clydesdale-Medium.ttf);
+}
+
+@font-face {
+    font-family: Clydesdale-light;
+    scr: url(Clydesdale/Clydesdale-Light.ttf);
 }
 
 .info .counter {
