@@ -101,12 +101,12 @@ img {
 
 @font-face {
     font-family: Clydesdale-medium;
-    src: url(Clydesdale/Clydesdale-Medium.ttf);
+    src: url(font/Clydesdale-Medium.ttf);
 }
 
 @font-face {
     font-family: Clydesdale-light;
-    scr: url(Clydesdale/Clydesdale-Light.ttf);
+    scr: url(font/Clydesdale-Light.ttf);
 }
 
 .info .counter {
