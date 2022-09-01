@@ -1,16 +1,17 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
 }
-body{
+
+body {
     font-size: 80%;
     text-align: left;
     font-family: "Arial Narrow", "Trebuchet MS", Tahoma, Arial, sans-serif;
     overflow-y: scroll;
 }
 
-header{
+header {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     width: 100%;
@@ -21,7 +22,7 @@ header{
     left: 0;
 }
 
-header #logo{
+header #logo {
     background-image: url(img/halologo.png);
     width: 140px;
     display: inline-block;
@@ -42,7 +43,7 @@ header nav {
 }
 
 header a {
-    color: white ;
+    color: white;
     text-decoration: none;
     font-size: 10px;
 }
@@ -52,7 +53,7 @@ header li {
     margin-left: 20px;
 }
 
-.banner #banner-img {
+.banner #banner-1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -62,7 +63,7 @@ header li {
     background-size: cover;
 }
 
-section .content .btns .btn{
+section .content .btns .btn {
     position: relative;
     display: inline-block;
     box-sizing: border-box;
@@ -74,13 +75,13 @@ section .content .btns .btn{
 
 }
 
-section .content h1{
+section .content h1 {
     color: white;
     text-align: left;
     font-size: 50px;
 }
 
-section .content h3{
+section .content h3 {
     color: white;
     text-align: left;
 }
@@ -89,24 +90,41 @@ section .content {
     padding-left: 8.5%;
     padding-top: 16%;
 }
+
 img {
     background-size: cover;
     background-repeat: no-repeat;
 }
-.info .counter{
+
+.info .counter {
     display: flex;
     justify-content: center;
-    margin:3%;
+    margin: 3%;
 }
 
-.info .counter #box{
-    padding: 2%;
+.info .counter #box {
+    margin: 40px;
+
 }
-.info .counter #box img{
+
+.info .counter #box img {
     max-width: 100%;
 }
 
-.info .counter #box h2{
+.info .counter #box h2 {
     color: #1573a4;
 
+}
+
+
+
+
+.banner-2 #banner-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 65vh;
+    background-image: url(img/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
