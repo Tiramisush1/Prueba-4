@@ -1,35 +1,28 @@
 @font-face {
-    font-family: Clydesdale-medium;
+    font-family: Clydesdale-Medium;
     src: url(font/Clydesdale-Medium.ttf);
 }
 
 @font-face {
-    font-family: Clydesdale-light;
-    scr: url(font/Clydesdale-Light.ttf);
+    font-family: Clydesdale-Bold;
+    src: url(font/Clydesdale-Bold.ttf);
 }
 
 @font-face {
-    font-family: Clydesdale-bold;
-    scr: url(font/Clydesdale-Bold.ttf);
+    font-family: Clydesdale-Book;
+    src: url(font/Clydesdale-Book.ttf);
 }
 
 @font-face {
-    font-family: Clydesdale-book;
-    scr: url(font/Clydesdale-Book.ttf);
+    font-family: Clydesdale-Light;
+    src: url(font/Clydesdale-Light.ttf);
 }
 
 @font-face {
-    font-family: Clydesdale-extrabold;
-    scr: url(font/Clydesdale-ExtraBold.ttf);
+    font-family: Clydesdale-Extrabold;
+    src: url(font/Clydesdale-ExtraBold.ttf);
 }
 
-p{
-    font-family: Arial;
-}
-
-h1{
-    font-family: Clydesdale-light;
-}
 button {
     border: none;
 }
@@ -60,10 +53,6 @@ nav .left .icons-4{
     margin-top: 1%;
 }
 
-.btns {
-    justify-content: center;
-}
-
 .btn-1 {
     position: relative;
     display: inline;
@@ -90,12 +79,10 @@ li {
 a {
     text-decoration: none;
     color: white;
-    font-size: 12px;
     margin: auto;
 }
 
 body {
-    font-size: 100%;
     text-align: left;
 }
 
@@ -103,7 +90,6 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     width: 100%;
-
 }
 
 nav {
@@ -153,7 +139,6 @@ header nav .search .sign-in {
     height: 30px;
     padding-top: 2%;
     padding-bottom: 2%;
-    font-size: 115%;
     color: white;
 }
 
@@ -185,20 +170,16 @@ section .content .btns .btn {
     margin: 0;
     width: 210px;
     margin-right: 1%;
-
-
 }
 
-section .content .btn {
-    display: flex;
+.text #group .btn{
+    margin-top: 4%;
 }
 
 .content h1 {
     color: white;
     text-align: left;
-    font-size: 50px;
     flex: 1;
-
 }
 
 .content p {
@@ -210,6 +191,9 @@ section .content .btn {
 section .content {
     padding-left: 8.4%;
     padding-top: 16%;
+    padding-right: 8.4%;
+    margin-right: 5%;
+    margin-left: 5%;
 
 }
 
@@ -218,7 +202,6 @@ section .content {
     justify-content: center;
     padding-left: 5.5%;
     padding-right: 5.5%;
-
 }
 
 .text {
@@ -229,28 +212,33 @@ section .content {
 
 .text #group {
     padding-right: 3.2%;
-    padding-top: 5.5%;
+    padding-top: 1.5%;
     margin-left: 2.7%;
-    margin-right: 8.5%;
+    padding-bottom: 1.5%;
+}
 
+#group h1{
+    color: rgb(32, 120, 168);
 }
 
 .text #group p {
-    padding-bottom: 4%;
+    display: inline;
+}
+
+.info .text #box{
+    justify-self: center;
+    align-items: center;
 }
 
 .text #group .btn {
     padding-top: 2%;
     padding-bottom: 2%;
-    font-size: 13px;
     padding-left: 1%;
     padding-right: 1%;
-    font-size: 15px;
 }
 
 .info .counter #box {
     margin: 40px;
-
 }
 
 .info .counter #box img {
@@ -262,7 +250,8 @@ section .content {
 }
 
 .text #box {
-    padding-left: 8.4%;
+    justify-content: center;
+
 }
 
 .banner-2 #banner-2 {
@@ -276,23 +265,19 @@ section .content {
 
 }
 
-.banner-2 .info h2 {
+.banner-2 .info h1 {
     color: #98d0f1;
     padding-left: 8.4%;
-    font-size: 30px;
 }
 
 .banner-2 .info h4 {
     color: white;
     padding-left: 8.4%;
-    font-size: 20px;
-
 }
 
 .banner-2 .info p {
     color: white;
     padding-left: 8.5%;
-    font-size: 12px;
 }
 
 .banner-2 #banner-2 .btns {
@@ -304,7 +289,6 @@ section .content {
 .banner-2 #banner-2 .btn {
     padding-top: 3%;
     padding-bottom: 3%;
-    font-size: 13px;
     padding-left: 1%;
     padding-right: 1%;
     display: inline;
@@ -314,7 +298,6 @@ section .content {
 .banner-2 #banner-2 .btn-1 {
     padding-top: 3%;
     padding-bottom: 3%;
-    font-size: 13px;
     padding-left: 1%;
     padding-right: 1%;
 }
@@ -361,7 +344,6 @@ section .content {
     padding-left: 1%;
     padding-right: 1%;
     margin-right: 5%;
-    font-size: 12px;
 }
 
 .community .btns {
@@ -499,7 +481,6 @@ section .content {
     left: 0%;
     top: 20%;
     display: flex;
-    font-size: 100%;
     align-items: flex-end;
     flex-direction: column;
     padding-left: 0.9%;
@@ -589,4 +570,68 @@ footer i{
 
 footer #box{
     width:10%;
+}
+
+.community h1{
+    color: rgb(32, 120, 168);
+}
+
+p{
+    font-family: Arial;
+    font-size: 14px;
+}
+
+h1{
+    font-family: Clydesdale-Medium;
+    font-size: 40px;
+}
+
+h2{
+    font-family: Clydesdale-Medium;
+    font-size: 30px;
+}
+
+a{
+    font-family: Clydesdale-Medium;
+    font-size: 17px;
+}
+
+h3{
+    font-family: Clydesdale-Medium;
+}
+
+h4{
+    font-family: Clydesdale-Book;
+    font-size: 25px;
+}
+
+button{
+    font-family: Clydesdale-Light;
+    font-size: 25px;
+}
+
+/*
+@font-face {
+    font-family: Clydesdale-Medium;
+    src: url(font/Clydesdale-Medium.ttf);
+}
+
+@font-face {
+    font-family: Clydesdale-Bold;
+    src: url(font/Clydesdale-Bold.ttf);
+}
+
+@font-face {
+    font-family: Clydesdale-Book;
+    src: url(font/Clydesdale-Book.ttf);
+}
+
+@font-face {
+    font-family: Clydesdale-Light;
+    src: url(font/Clydesdale-Light.ttf);
+}
+
+@font-face {
+    font-family: Clydesdale-Extrabold;
+    src: url(font/Clydesdale-ExtraBold.ttf);
 }
