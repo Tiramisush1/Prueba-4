@@ -29,7 +29,7 @@ button{
 }
 .btn {
     position: relative;
-    display: inline-flex;
+    display: inline;
     box-sizing: border-box;
     background-color: #1573a4;
     text-shadow: none;
@@ -42,7 +42,7 @@ button{
 
 .btn-1 {
     position: relative;
-    display: inline-flex;
+    display: inline;
     box-sizing: border-box;
     background-color: #1573a4;
     text-shadow: none;
@@ -158,7 +158,7 @@ header nav .search {
 
 section .content .btns .btn {
     position: relative;
-    display: inline-flex;
+    display: inline;
     box-sizing: border-box;
     background-color: #1573a4;
     text-shadow: none;
