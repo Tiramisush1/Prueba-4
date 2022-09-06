@@ -147,17 +147,20 @@ header nav .search {
     padding-bottom: 5%;
     padding-left: 55%;
     padding-right: 10%;
+    align-items: center;
 }
 
 .banner #banner-1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 66vh;
+    height: 100%;
+    width: 100%;
     background-image: url(img/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    padding-bottom: 4%;
+    padding-top: 5%;
 }
 
 section .content .btns .btn {
@@ -192,8 +195,6 @@ section .content {
     padding-left: 8.4%;
     padding-top: 16%;
     padding-right: 8.4%;
-    margin-right: 5%;
-    margin-left: 5%;
 
 }
 
@@ -371,8 +372,8 @@ section .content {
     height: 50px;
     width: 50px;
     text-align: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 
 .social #tw {
@@ -381,8 +382,8 @@ section .content {
     height: 50px;
     width: 50px;
     text-align: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 
 .social #yt {
@@ -391,8 +392,8 @@ section .content {
     height: 50px;
     width: 50px;
     text-align: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 
 .social #ig {
@@ -401,8 +402,8 @@ section .content {
     height: 50px;
     width: 50px;
     text-align: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 
 .social #tch {
@@ -411,8 +412,8 @@ section .content {
     height: 50px;
     width: 50px;
     text-align: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 
 .social #dc {
@@ -421,8 +422,8 @@ section .content {
     height: 50px;
     width: 50px;
     text-align: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 
 .social #rating-info {
